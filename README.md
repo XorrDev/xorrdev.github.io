@@ -1,2 +1,2 @@
-# businesssimulator.github.io
+# reactivepeak.github.io
 A Business Simulator
