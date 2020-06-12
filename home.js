@@ -1,5 +1,3 @@
-
-
 function Scrolled() {
     var floatCalled = window.pageYOffset;
     if(floatCalled > 100) {
