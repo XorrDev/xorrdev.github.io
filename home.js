@@ -42,6 +42,9 @@ document.addEventListener('DOMContentLoaded',function(event){
         "'Lets optimize for player experience rather than what we think will make more money.' - Ron Carmel",
         "'The successful free to play games are selling positive emotions. Not content.' - Nicholas Lovell",
         "'It should be the experience, that is touching. What I strive for is to make the person playing the game the director.' - Shigeru Miyamoto.",
+        "'90% of what is considered “impossible” is, in fact, possible. The other 10% will become possible with the passage of time & technology.' – Hideo Kojima",
+        "'A game is a series of interesting choices.' - Sid Meier",
+        "'This is the entertainment industry, so game designers have to have a creative mind and also have to be able to stand up against the marketing people at their company – otherwise they cannot be creative. There are not that many people who fit that description.' - Shigeru Miyamoto"
     ];
     function typeWriter (text, i, fnCallback) {
       if (i < (text.length)) {
