@@ -79,14 +79,14 @@ document.addEventListener('DOMContentLoaded',function(event){
     }
 }
 function Downloads() {
-  window.location.href = 'http://127.0.0.1:5500/Downloads/downloads.html';
+  window.location.href = 'https://www.reactivepeakstudios.github.io/downloads';
 }
 function Projects() {
-  window.location.href = 'http://127.0.0.1:5500/Projects/projects.html';
+  window.location.href = 'https://www.reactivepeakstudios.github.io/projects';
 }
 function About() {
-  window.location.href = 'http://127.0.0.1:5500/About/about.html'
+  window.location.href = 'https://www.reactivepeakstudios.github.io/about'
 }
 function Contact() {
-  window.location.href = 'http://127.0.0.1:5500/Contact/contact.html'
+  window.location.href = 'https://www.reactivepeakstudios.github.io/contact'
 }
