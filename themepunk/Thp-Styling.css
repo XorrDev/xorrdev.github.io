@@ -111,12 +111,12 @@ html {
 div#sticky {
     position: -webkit-sticky;
     position: fixed; width: 100%;
-    top: 0px;
     background-color: #545454;
     font-size: 20px;
     width: auto;
     margin: auto;
     height: 100%;
+    top: 0px;
     float: left;
     overflow: auto;
     left: 0;
