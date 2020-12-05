@@ -102,19 +102,7 @@ h1 {
 background: #ff0000;
 border-radius: 10px;
 }
-#FMHome {
-    transition: opacity 0.2s ease;
-}
-#FMDownloads {
-    transition: opacity 0.2s ease;
-}
-#FMProjects {
-    transition: opacity 0.2s ease;
-}
-#FMAbout {
-    transition: opacity 0.2s ease;
-    }
-#FMContact {
+.FMButton {
     transition: opacity 0.2s ease;
 }
 #FMEchoCaves {

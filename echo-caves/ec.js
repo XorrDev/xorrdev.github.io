@@ -6,16 +6,19 @@ function Scrolled() {
   document.getElementById("SMEchoCaves").style.opacity = "0";
   document.getElementById("SMCl").style.opacity = "0";
   document.getElementById("SMAbout").style.opacity = "0";
+  document.getElementById("SMTp").style.opacity = "0";
   }
   if(floatCalled > 150) {
     document.getElementById("FMEchoCaves").style.opacity = "1";
     document.getElementById("FMCl").style.opacity = "1";
     document.getElementById("FMAbout").style.opacity = "1";
+    document.getElementById("FMTp").style.opacity = "1";
   }
   if(floatCalled < 150) {
     document.getElementById("FMEchoCaves").style.opacity = "0";
     document.getElementById("FMCl").style.opacity = "0";
     document.getElementById("FMAbout").style.opacity = "0";
+    document.getElementById("F  MTp").style.opacity = "0";
   }
   if(floatCalled < 100) {
     document.getElementById("floatMenu").style.visibility = "hidden";
@@ -23,6 +26,7 @@ function Scrolled() {
     document.getElementById("SMEchoCaves").style.opacity = "1";
     document.getElementById("SMCl").style.opacity = "1";
     document.getElementById("SMAbout").style.opacity = "1";
+    document.getElementById("SMTp").style.opacity = "1";
   }
 }
 function EchoCaves() {
