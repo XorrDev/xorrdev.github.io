@@ -1,6 +1,4 @@
 //Global Initializations
-var jsonData = JSON.stringify(json);
-var themeData = JSON.parse(jsonData);
 var json = (
     {
         "Background": {
@@ -28,6 +26,8 @@ var json = (
         }
     }
 )
+var jsonData = JSON.stringify(json);
+var themeData = JSON.parse(jsonData);
 
 function Update() {
     
@@ -62,7 +62,6 @@ function Update() {
     themeData.Grade.NewTertiaryGradeColor = TertiaryGradeColor;
     themeData.Menu.NewPrimaryMenuColor = PrimaryMenuColor;
     themeData.Menu.NewSecondaryMenuColor = SecondaryMenuColor;
-
     //CSS Property Assignments
     document.documentElement.style.setProperty("--BackgroundColor1", themeData.Background.NewPrimaryBackgroundColor);
     document.documentElement.style.setProperty("--BackgroundColor2", themeData.Background.NewSecondaryBackgroundColor);
@@ -78,13 +77,6 @@ function Update() {
     document.documentElement.style.setProperty("--GradeColor3", themeData.Grade.NewTertiaryGradeColor);
     document.documentElement.style.setProperty("--MenuColor1", themeData.Menu.NewPrimaryMenuColor);
     document.documentElement.style.setProperty("--MenuColor2", themeData.Menu.NewSecondaryMenuColor);
-
-    //Confirm CSS Update Process
-    var loadedText = document.getElementById('loadedText');
-    loadedText.className ='loadedAnim';
-    loadedText.addEventListener("animationend", function() {
-    loadedText.className ='';
-    });
 }
 
 function Confirm() {
@@ -131,11 +123,4 @@ function Confirm() {
     rawThemeData.style = {position: 'absolute', left: '-9999px'};
     document.execCommand('copy');
     document.body.removeChild(rawThemeData);
-
-    //Confirm Copy Process
-    var copiedText = document.getElementById('copiedText');
-    copiedText.className ='copiedAnim';
-    copiedText.addEventListener("animationend", function() {
-    copiedText.className ='';
-    });
 }
