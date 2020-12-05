@@ -18,8 +18,6 @@
     --MenuColor1: #585858;
     --MenuColor2: #484848;
 }
-
-
 .background {
     width: 320px;
     height: 200px;
@@ -69,9 +67,6 @@
 #SecondaryAccentTextColor {
     color: var(--AccentTextColor2);
 }
-
-
-
 #PrimaryGradeColor {
     color: var(--GradeColor1);
 }
@@ -81,9 +76,6 @@
 #TertiaryGradeColor {
     color: var(--GradeColor3);
 }
-
-
-
 #PrimaryMenuColor {
     background-color: var(--MenuColor1);
 }

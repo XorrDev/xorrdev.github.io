@@ -105,11 +105,11 @@ border-radius: 10px;
 .FMButton {
     transition: opacity 0.2s ease;
 }
-#FMCl {
+#FMAbout {
     color:#94beffff;
     border-bottom: 2px solid #ff0000;
 }
-#SMCl {
+#SMAbout {
     color: #94beffff;
     border-bottom: 2px solid #ff0000;
 }

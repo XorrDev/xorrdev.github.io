@@ -23,8 +23,8 @@ function Scrolled() {
   if(floatCalled < 100) {
     document.getElementById("floatMenu").style.visibility = "hidden";
     document.getElementById("staticMenu").style.visibility = "visible";
-    document.getElementById("SMTp").style.opacity = "1";
     document.getElementById("SMEchoCaves").style.opacity = "1";
+    document.getElementById("SMTp").style.opacity = "1";
     document.getElementById("SMCl").style.opacity = "1";
     document.getElementById("SMAbout").style.opacity = "1";
   }
@@ -32,9 +32,9 @@ function Scrolled() {
 function EchoCaves() {
   window.location.href = 'https://reactivepeakstudios.github.io/echo-caves/downloads';
 }
+function Themepunk() {
+  window.location.href = 'https://reactivepeakstudios.github.io/echo-caves/themepunk';
+}
 function Changelog() {
   window.location.href = 'https://reactivepeakstudios.github.io/echo-caves/projects';
-}
-function About() {
-  window.location.href = 'https://reactivepeakstudios.github.io/echo-caves/about';
 }
