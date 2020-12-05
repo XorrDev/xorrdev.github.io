@@ -34,11 +34,14 @@ function Scrolled() {
   }
 }
 function EchoCaves() {
-  window.location.href = 'https://reactivepeakstudios.github.io/echo-caves/downloads';
+  window.location.href = 'https://reactivepeakstudios.github.io/echo-caves/';
 }
 function Themepunk() {
   window.location.href = 'https://reactivepeakstudios.github.io/echo-caves/themepunk';
 }
 function Changelog() {
   window.location.href = 'https://reactivepeakstudios.github.io/echo-caves/changelog';
+}
+function About() {
+  window.location.href = 'https://reactivepeakstudios.github.io/echo-caves/about';
 }

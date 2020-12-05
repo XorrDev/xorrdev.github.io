@@ -34,7 +34,10 @@ function Scrolled() {
   }
 }
 function EchoCaves() {
-  window.location.href = 'https://reactivepeakstudios.github.io/echo-caves/downloads';
+  window.location.href = 'https://reactivepeakstudios.github.io/echo-caves/';
+}
+function Catalog() {
+  window.location.href = 'https://reactivepeakstudios.github.io/echo-caves/catalog';
 }
 function Themepunk() {
   window.location.href = 'https://reactivepeakstudios.github.io/echo-caves/themepunk';
