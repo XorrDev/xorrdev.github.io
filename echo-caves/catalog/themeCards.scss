@@ -122,22 +122,42 @@ Requirements
 
 
 
-#Card_EMPTY {
-    background-color: #000000;              // PrimaryBackground
-    border-color: #000000;                  // PrimaryAccentText
+#Card_HEAVYGREEN {
+    background-color: #00331a;              // PrimaryBackground
+    border-color: #ffffff;                  // PrimaryAccentText
     .productDev {
-        color: #000000;                     // SecondaryAccentText
+        color: #44c200;                     // SecondaryAccentText
     }
     .productHeader {
-        color: #000000;                     // PrimaryText
+        color: #ffffff;                     // PrimaryText
     }
     .copyJSON {
         border-color: #000000;              // PrimaryGrade
         color: #000000;                     // PrimaryGrade
-        background-color: #000000;          // TertiaryBackground
+        background-color: #015b2f;          // TertiaryBackground
     }
     .product-image img {
-        border-top: 2px solid #000000;      // SecondaryAccentText
-        border-bottom: 2px solid #000000;   // SecondaryAccentText
+        border-top: 2px solid #00ff91;      // SecondaryAccentText
+        border-bottom: 2px solid #00ff91;   // SecondaryAccentText
+    }   
+}
+
+#Card_HEAVYBLUE {
+    background-color: #002933;              // PrimaryBackground
+    border-color: #00d9ff;                  // PrimaryAccentText
+    .productDev {
+        color: #00c2ac;                     // SecondaryAccentText
+    }
+    .productHeader {
+        color: #ffffff;                     // PrimaryText
+    }
+    .copyJSON {
+        border-color: #000000;              // PrimaryGrade
+        color: #000000;                     // PrimaryGrade
+        background-color: #014d5b;          // TertiaryBackground
+    }
+    .product-image img {
+        border-top: 2px solid #00c2a2;      // SecondaryAccentText
+        border-bottom: 2px solid #00c2a2;   // SecondaryAccentText
     }   
 }
