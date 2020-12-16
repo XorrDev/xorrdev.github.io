@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 .background {
     overflow-x: hidden;
-    background-color:#303030;
+    background-color:#181818;
 }
 h1 {
     color: #ffffff;
@@ -27,7 +27,7 @@ h1 {
     margin-bottom: 150px;
 }
 #staticMenu {
-    background-color: #202020;
+    background-color: #484848;
     z-index: 1;
     position: absolute;
     top: 0px;
@@ -38,7 +38,7 @@ h1 {
     text-align: center;
 }
 #floatMenu {
-    background-color: #202020;
+    background-color: #484848;
     z-index: 3;
     position: fixed;
     top: 0px;
@@ -64,8 +64,8 @@ h1 {
     color: #ffffff;
 }
 .SMButton:hover {
-    color: #94beff;
-    border-bottom: 2px solid #ff0000;
+    color: #CF86FF;
+    border-bottom: 2px solid #00ACFF;
     height: 40px;
     transform: translateY(5px);
     transition: transform 0.5s ease;
@@ -90,8 +90,8 @@ h1 {
     height: 20px;
 }
 .FMButton:hover {
-    color: #94beffff;
-    border-bottom: 2px solid #ff0000;
+    color: #CF86FF;
+    border-bottom: 2px solid #00ACFF;
 }
 ::-webkit-scrollbar {
     width: 5px;
@@ -99,19 +99,19 @@ h1 {
     color: #ffffff;
     }
 ::-webkit-scrollbar-thumb {
-background: #ff0000;
+background: #00ACFF;
 border-radius: 10px;
 }
 .FMButton {
     transition: opacity 0.2s ease;
 }
 #FMEchoCaves {
-    color:#94beffff;
-    border-bottom: 2px solid #ff0000;
+    color:#CF86FF;
+    border-bottom: 2px solid #00ACFF;
 }
 #SMEchoCaves {
-    color: #94beffff;
-    border-bottom: 2px solid #ff0000;
+    color: #CF86FF;
+    border-bottom: 2px solid #00ACFF;
 }
 body {
     margin-bottom: 1000px;

@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Alphbeta';
-    src: local('Alphbeta'), url(alphbeta-webfont.woff) format('woff');
+    src: local('Alphbeta'), url('../.fonts/alphbeta-webfont.woff') format('woff');
 }
 @import url("");
 .background {
     overflow-x: hidden;
-    background: url(HeroZitusBR.gif) 0 0;
+    background: url('.media/HeroZitusBR.gif') 0 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
         
@@ -96,6 +96,7 @@
     margin-top: 15px;
     height: 20px;
     font-family: 'AlphBeta';
+    transition: opacity 0.2s ease;
 }
 .FMButton:hover {
     color: rgb(255, 255, 255);

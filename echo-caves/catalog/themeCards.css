@@ -1,0 +1,115 @@
+/*-----
+---A---
+-----
+
+Requirements
+
+    Developer Name,
+    Primary Background Color,
+    Tertiary Background Color,
+    Primary Text Color,
+    Primary Accent Text Color,
+    Secondary Accent Text Color,
+    Primary Grade Color
+*/
+#Card_Volcano {
+  background-color: #290000;
+  border-color: #ffee00;
+}
+#Card_Volcano .productDev {
+  color: #ff6f00;
+}
+#Card_Volcano .productHeader {
+  color: #ffffff;
+}
+#Card_Volcano .copyJSON {
+  border-color: #ff2e2e;
+  color: #ff2e2e;
+  background-color: #460101;
+}
+#Card_Volcano .product-image img {
+  border-top: 2px solid #ff6f00;
+  border-bottom: 2px solid #ff6f00;
+}
+
+#Card_Orion {
+  background-color: #16181d;
+  border-color: #bc6ff1;
+}
+#Card_Orion .productDev {
+  color: #ff00c8;
+}
+#Card_Orion .productHeader {
+  color: #3d9bff;
+}
+#Card_Orion .copyJSON {
+  border-color: #00ff00;
+  color: #00ff00;
+  background-color: #20232c;
+}
+#Card_Orion .product-image img {
+  border-top: 2px solid #ff00c8;
+  border-bottom: 2px solid #ff00c8;
+}
+
+#Card_Vanta {
+  background-color: #000000;
+  border-color: #6801ad;
+}
+#Card_Vanta .productDev {
+  color: #006bad;
+}
+#Card_Vanta .productHeader {
+  color: #999999;
+}
+#Card_Vanta .copyJSON {
+  border-color: #009900;
+  color: #009900;
+  background-color: #1c1c1c;
+}
+#Card_Vanta .product-image img {
+  border-top: 2px solid #006bad;
+  border-bottom: 2px solid #006bad;
+}
+
+#Card_Whisps {
+  background-color: #212f45;
+  border-color: #00bfc2;
+}
+#Card_Whisps .productDev {
+  color: #71d683;
+}
+#Card_Whisps .productHeader {
+  color: #ffffff;
+}
+#Card_Whisps .copyJSON {
+  border-color: #00ff00;
+  color: #00ff00;
+  background-color: #312244;
+}
+#Card_Whisps .product-image img {
+  border-top: 2px solid #71d683;
+  border-bottom: 2px solid #71d683;
+}
+
+#Card_MelonWater {
+  background-color: #642032;
+  border-color: #ff85de;
+}
+#Card_MelonWater .productDev {
+  color: #8aff8a;
+}
+#Card_MelonWater .productHeader {
+  color: #d9d9d9;
+}
+#Card_MelonWater .copyJSON {
+  border-color: #00c800;
+  color: #00c800;
+  background-color: #803c53;
+}
+#Card_MelonWater .product-image img {
+  border-top: 2px solid #8aff8a;
+  border-bottom: 2px solid #8aff8a;
+}
+
+/*# sourceMappingURL=themeCards.css.map */
