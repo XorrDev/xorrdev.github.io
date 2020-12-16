@@ -207,24 +207,3 @@ border-radius: 10px;
     margin: 15px 0px 10px 0px;
     border-color: #00ACFF;
 }
-
-
-#Card_Volcano {
-    background-color: #290000;
-    border-color: #ffee00;
-}
-#Card_Volcano .productDev {
-    color: #ff6f00;
-}
-#Card_Volcano .productHeader {
-    color: #ffffff;
-}
-#Card_Volcano .copyJSON {
-    border-color: #ff2e2e;
-    color: #ff2e2e;
-    background-color: #460101;
-}
-#Card_Volcano .product-image img {
-    border-top: 2px solid #ff2e2e;
-    border-bottom: 2px solid #ff2e2e;
-}   

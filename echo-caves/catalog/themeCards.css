@@ -112,4 +112,44 @@ Requirements
   border-bottom: 2px solid #8aff8a;
 }
 
+#Card_HeavyGreen {
+  background-color: #00331a;
+  border-color: #00FF91;
+}
+#Card_HeavyGreen .productDev {
+  color: #44c200;
+}
+#Card_HeavyGreen .productHeader {
+  color: #ffffff;
+}
+#Card_HeavyGreen .copyJSON {
+  border-color: #00FF00;
+  color: #00FF00;
+  background-color: #015b2f;
+}
+#Card_HeavyGreen .product-image img {
+  border-top: 2px solid #44c200;
+  border-bottom: 2px solid #44c200;
+}
+
+#Card_HeavyBlue {
+  background-color: #002933;
+  border-color: #00d9ff;
+}
+#Card_HeavyBlue .productDev {
+  color: #00c2a2;
+}
+#Card_HeavyBlue .productHeader {
+  color: #ffffff;
+}
+#Card_HeavyBlue .copyJSON {
+  border-color: #00fbff;
+  color: #00fbff;
+  background-color: #014d5b;
+}
+#Card_HeavyBlue .product-image img {
+  border-top: 2px solid #00c2a2;
+  border-bottom: 2px solid #00c2a2;
+}
+
 /*# sourceMappingURL=themeCards.css.map */
