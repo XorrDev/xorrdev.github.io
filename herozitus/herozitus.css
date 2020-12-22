@@ -2,7 +2,6 @@
     font-family: 'Alphbeta';
     src: local('Alphbeta'), url('/fonts/alphbeta-webfont.woff') format('woff');
 }
-@import url("");
 .background {
     overflow-x: hidden;
     background: url('./media/HeroZitusBR.gif') 0 0;
