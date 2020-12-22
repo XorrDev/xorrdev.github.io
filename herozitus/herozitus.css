@@ -5,7 +5,7 @@
 @import url("");
 .background {
     overflow-x: hidden;
-    background: url('.media/HeroZitusBR.gif') 0 0;
+    background: url('./media/HeroZitusBR.gif') 0 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
         
