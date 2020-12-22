@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Alphbeta';
-    src: local('Alphbeta'), url('../.fonts/alphbeta-webfont.woff') format('woff');
+    src: local('Alphbeta'), url('/fonts/alphbeta-webfont.woff') format('woff');
 }
 @import url("");
 .background {
