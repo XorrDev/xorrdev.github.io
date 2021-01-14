@@ -69,10 +69,9 @@ document.addEventListener('DOMContentLoaded',function(event){
       }
     }
     StartTextAnimation(0);
-  });
+});
   function logoVisibility() {
     var displayPortWidth = window.innerWidth;
-    var displayPortHeight = window.innerHeight;
     if(displayPortWidth < 960) {
         document.getElementById("SLogo").style.visibility = "hidden";
     }  
