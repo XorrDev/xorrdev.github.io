@@ -24,9 +24,8 @@ function Scrolled() {
     document.getElementById("ft5").style.opacity = "1";
   }
 }
-  function Projects() {
-    window.location.href = 'https://reactivepeakstudios.github.io/projects';
-  }
+function Projects() {
+  window.location.href = 'https://reactivepeakstudios.github.io/projects';
 }
 function addHeroZitus() {
   window.location.href = 'https://discord.com/api/oauth2/authorize?client_id=733952380772679763&permissions=0&scope=bot';
