@@ -69,7 +69,7 @@ function writeJSON() {
     themeData.Background.NewQuinaryBackgroundColor = document.getElementById("BGColor5").value;    
     themeData.Text.NewPrimaryTextColor = document.getElementById("TextColor1").value;
     themeData.Text.NewSecondaryTextColor = document.getElementById("TextColor2").value;
-    themeData.Text.NewPrimaryAccentTextColor= document.getElementById("AccentTextColor1").valuer;
+    themeData.Text.NewPrimaryAccentTextColor= document.getElementById("AccentTextColor1").value;
     themeData.Text.NewSecondaryAccentTextColor = document.getElementById("AccentTextColor2").value; 
     themeData.Grade.NewPrimaryGradeColor = document.getElementById("GradeColor1").value;
     themeData.Grade.NewSecondaryGradeColor = document.getElementById("GradeColor2").value;
