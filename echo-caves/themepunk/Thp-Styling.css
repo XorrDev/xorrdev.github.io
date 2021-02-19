@@ -102,7 +102,7 @@ div#sticky {
     position: fixed; width: 100%;
     background-color: #545454;
     font-size: 20px;
-    width: auto;
+    width: 28%;
     margin: auto;
     height: 100%;
     top: 0px;
