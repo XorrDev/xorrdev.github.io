@@ -87,7 +87,7 @@ h1 {
 }
 h2 {
     text-align: left;
-    font-size: 40px;
+    font-size: 34px;
     color: rgb(255, 255, 255);
 }
 .newBr {
@@ -118,12 +118,14 @@ div#sticky {
     font-size: 25px;
 }
 input {
-    float: right;
     margin-left: 50px;
     margin-right: 50px;
 }
-#Buttons {
-    color: #FFFFFF;
+input.colorInputs {
+    float: right;
+}
+#Inputs {
+    position: relative;
     text-align: center;
 }
 #ConfirmButton {

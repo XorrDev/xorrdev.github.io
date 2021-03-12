@@ -1,33 +1,8 @@
 //Global Initializations
-var json = (
-    {
-        "Background": {
-            "NewPrimaryBackgroundColor": "",
-            "NewSecondaryBackgroundColor": "",
-            "NewTertiaryBackgroundColor": "",
-            "NewQuaternaryBackgroundColor": "",
-            "NewQuinaryBackgroundColor": ""
-        },
-        "Text": {
-            "NewPrimaryTextColor": "",
-            "NewSecondaryTextColor": "",
-            "NewTertiaryTextColor": "",
-            "NewPrimaryAccentTextColor": "",
-            "NewSecondaryAccentTextColor": ""
-        },
-        "Grade": {
-            "NewPrimaryGradeColor": "",
-            "NewSecondaryGradeColor": "",
-            "NewTertiaryGradeColor": ""
-        },
-        "Menu": {
-            "NewPrimaryMenuColor": "",
-            "NewSecondaryMenuColor": ""
-        }
-    }
-)
+var json = ({"ThemeName":"","Background":{"NewPrimaryBackgroundColor":"","NewSecondaryBackgroundColor":"","NewTertiaryBackgroundColor":"","NewQuaternaryBackgroundColor":"","NewQuinaryBackgroundColor":""},"Text":{"NewPrimaryTextColor":"","NewSecondaryTextColor":"","NewPrimaryAccentTextColor":"","NewSecondaryAccentTextColor":""},"Grade":{"NewPrimaryGradeColor":"","NewSecondaryGradeColor":"","NewTertiaryGradeColor":""},"Menu":{"NewPrimaryMenuColor":"","NewSecondaryMenuColor":""}})
 var jsonData = JSON.stringify(json);
 var themeData = JSON.parse(jsonData);
+confirmButtonDisabled();
 
 function Update() {
     writeJSON();
@@ -62,6 +37,7 @@ function Confirm() {
 }
 
 function writeJSON() {
+    themeData.ThemeName = document.getElementById("ThemeName").value;
     themeData.Background.NewPrimaryBackgroundColor = document.getElementById("BGColor1").value;
     themeData.Background.NewSecondaryBackgroundColor = document.getElementById("BGColor2").value;
     themeData.Background.NewTertiaryBackgroundColor = document.getElementById("BGColor3").value;
@@ -76,4 +52,21 @@ function writeJSON() {
     themeData.Grade.NewTertiaryGradeColor = document.getElementById("GradeColor3").value;
     themeData.Menu.NewPrimaryMenuColor = document.getElementById("MenuColor1").value;
     themeData.Menu.NewSecondaryMenuColor = document.getElementById("MenuColor2").value;
+}
+
+function confirmButtonDisabled() {
+    document.getElementById('ConfirmButton').disabled = true;
+    document.getElementById('ConfirmButton').style = "background-color: #006F00;color:#AFAFAF";
+}
+function confirmButtonEnabled() {
+    document.getElementById('ConfirmButton').disabled = false;
+    document.getElementById('ConfirmButton').style = "background-color: #00AF00;color:#FFFFFF";
+}
+
+function updateButtonState() {
+    if(document.getElementById("ThemeName").value != "") {
+        confirmButtonEnabled();
+    } else {
+        confirmButtonDisabled();
+    }
 }

@@ -13,68 +13,71 @@
                 <h2>
                     Background Colors
                 </h2>
-                <input type="color" id="BGColor1" value="#181818">
+                <input class="colorInputs" type="color" id="BGColor1" value="#181818">
                 <label for="BGColor1">Primary Background Color</label>
                 <br>
-                <input type="color" id="BGColor2" value="#282828">
+                <input class="colorInputs" type="color" id="BGColor2" value="#282828">
                 <label for="BGColor2">Secondary Background Color</label>
                 <br>
-                <input type="color" id="BGColor3" value="#383838">
+                <input class="colorInputs" type="color" id="BGColor3" value="#383838">
                 <label for="BGColor3">Tertiary Background Color</label>
                 <br>
-                <input type="color" id="BGColor4" value="#484848">
+                <input class="colorInputs" type="color" id="BGColor4" value="#484848">
                 <label for="BGColor4">Quaternary Background Color</label>
                 <br>
-                <input type="color" id="BGColor5" value="#585858">
+                <input class="colorInputs" type="color" id="BGColor5" value="#585858">
                 <label for="BGColor5">Quinary Background Color</label>
             </div>
             <div class="Category">
                 <h2>
                     Text Colors
                 </h2>
-                <input type="color" id="TextColor1" value="#FFFFFF">
+                <input class="colorInputs" type="color" id="TextColor1" value="#FFFFFF">
                 <label for="TextColor1">Primary Text color</label>
                 <br>
-                <input type="color" id="TextColor2" value="#B3B3B3">
+                <input class="colorInputs" type="color" id="TextColor2" value="#B3B3B3">
                 <label for="TextColor2">Secondary Text color</label>
                 <br>
-                <input type="color" id="AccentTextColor1" value="#CF86FF">
+                <input class="colorInputs" type="color" id="AccentTextColor1" value="#CF86FF">
                 <label for="AccentTextColor1">Primary Accent Text Color</label>
                 <br>
-                <input type="color" id="AccentTextColor2" value="#00ACFF">
+                <input class="colorInputs" type="color" id="AccentTextColor2" value="#00ACFF">
                 <label for="AccentTextColor2">Secondary Accent Text Color</label>
             </div>
             <div class="Category">
                 <h2>
                     Grade Colors
                 </h2>
-                <input type="color" id="GradeColor1" value="#00FF00">
+                <input class="colorInputs" type="color" id="GradeColor1" value="#00FF00">
                 <label for="GradeColor1">Primary Grade Color</label>
                 <br>
-                <input type="color" id="GradeColor2" value="#00DF00">
+                <input class="colorInputs" type="color" id="GradeColor2" value="#00DF00">
                 <label for="GradeColor2">Secondary Grade Color</label>
                 <br>
-                <input type="color" id="GradeColor3" value="#59FF59">
+                <input class="colorInputs" type="color" id="GradeColor3" value="#59FF59">
                 <label for="GradeColor3">Tertiary Grade Color</label>
             </div>
             <div class="Category">
                 <h2>
                     Menu Colors
                 </h2>
-                <input type="color" id="MenuColor1" value="#585858">
+                <input class="colorInputs" type="color" id="MenuColor1" value="#585858">
                 <label for="MenuColor1">Primary Menu Color</label>
                 <br>
-                <input type="color" id="MenuColor2"value="#484848">
+                <input class="colorInputs" type="color" id="MenuColor2"value="#484848">
                 <label for="MenuColor2">Secondary Menu Color</label>
-            </div>
-            <div id="Buttons">
+            </div><br><br>
+
+            <p id="Inputs">
+                <input type="text" id="ThemeName" onInput="updateButtonState()">
+                <br>
                 <button id="ConfirmButton" onClick="Confirm()">
                     Copy JSON To Clipboard
                 </button>
                 <button id="ConfirmButton" onClick="Update()">
                     Load Selected Colors
                 </button>
-            </div> 
+            </p> 
         </div>
         <h1>Primary Text Color // Background Colors</h1>
         <div class="Main">
