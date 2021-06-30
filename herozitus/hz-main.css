@@ -66,8 +66,16 @@ body {
 .description {
     color: #fff;
     font-family: pixel;
-    font-size: 25px;
+    font-size: 30px;
     line-height: 1.2em;
+}
+.description-accent-1 {
+    color:#69ace2;
+}
+
+.description-accent-2 {
+    color: #56c054;
+    font-size: 45px;
 }
 
 .flexbox, .flexbox-commands {
