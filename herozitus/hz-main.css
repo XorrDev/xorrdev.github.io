@@ -97,6 +97,7 @@ body {
 .centered-category {
     text-align: center;
     vertical-align: middle;
+    margin:auto;
 }
 .sub-header {
     color: #56c054;
@@ -198,6 +199,9 @@ table {
     width:30%;
     color: #9affe1;
     font-size: 20px;
+}
+.command-args {
+    color:#ff73ff;
 }
 .cellheader {
     color: #FFF;
