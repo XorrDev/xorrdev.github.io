@@ -51,6 +51,7 @@ body {
 }
 .nav-btn:hover {
     cursor: pointer;
+    background-color: #296291;
 }
 .nav-btn-container {
     margin:20px;
