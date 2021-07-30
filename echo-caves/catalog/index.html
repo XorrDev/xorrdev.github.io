@@ -7,50 +7,11 @@
     <head>
         <link rel="icon" href="../../images/ECicon128.png">
         <link rel="stylesheet" href="ecCatalog.css">
-        <link rel="stylesheet" href="themeCards.css" />
         <script src="//cdn.jsdelivr.net/npm/less" ></script>
-        <div id="floatMenu">
-            <button class="FMButton" id="FMBtp" onclick="BackToProjects()">
-                Back To Projects
-            </button>
-            <button class="FMButton" id="FMEchoCaves" onclick="EchoCaves()">
-                Echo Caves
-            </button>
-            <button class="FMButton" id="FMCatalog" onclick="Catalog()">
-                Catalog
-            </button>
-            <button class="FMButton" id="FMTp" onclick="Themepunk()">
-                Themepunk
-            </button>
-            <button class="FMButton" id="FMCl" onclick="Changelog()">
-                Changelog
-            </button>
-            <button class="FMButton" id="FMAbout" onclick="About()">
-                About
-            </button>
-        </div>
-        <div id="staticMenu">
-            <button class="SMButton" id="SMBtp" onclick="BackToProjects()">
-                Back To Projects
-            </button>
-            <button class="SMButton" id="SMEchoCaves" onclick="EchoCaves()">
-                Echo Caves
-            </button>
-            <button class="SMButton" id="SMCatalog" onclick="Catalog()">
-                Catalog
-            </button>
-            <button class="SMButton" id="SMTp" onclick="Themepunk()">
-                Themepunk
-            </button>
-            <button class="SMButton" id="SMCl" onclick="Changelog()">
-                Changelog
-            </button>
-            <button class="SMButton" id="SMAbout" onclick="About()">
-                About
-            </button>
-          </div>
-    </head> 
     <body onscroll="Scrolled()" id="body" onresize="logoVisibility()">
+        <div>
+            <h1>ECHO Caves Catalog</h1>
+        </div>
         <nav id="NAV">
             <button class="searchButtons" onclick="searchALL()" id="tagALL">
                 All Themes
@@ -74,139 +35,121 @@
                 <input id="search" onkeyup="searchThemes()" type="text" placeholder="Find a Theme...">
             </div>
         </nav>
-        <div id="">
-        <section id="products">
-            <div id="Card_Volcano" class="product-card">
-                <div class="product-image">
-                    <img src=".media/Home_Volcano.png">
+        <div id="products">
+            <div id="products-wrapper">
+                <div id="card-volcano" class="product-card">
+                    <div class="product-image">
+                        <img src="media/Home_Volcano.png">
+                    </div>
+                    <div class="product-description">
+                        <div class="product-details-wrapper">
+                            <p class="product-title">Volcano</p>
+                            <p class="product-dev">ECHO Caves Team</p> 
+                        </div>
+                        <div class="product-info-wrapper">
+                            <image src=media/info-icon.png class="product-info">
+                        </div> 
+                    </div>
                 </div>
-                <div class="product-info">
-                    <p class="productHeader">Volcano</p><br>
-                    <span class="productDev">ECHO Caves Team</span><br>
-                    <button class="copyJSON">Copy JSON</button>
+                <div id="card-volcano" class="product-card">
+                    <div class="product-image">
+                        <img src="media/Home_Whisps.png">
+                    </div>
+                    <div class="product-description">
+                        <div class="product-details-wrapper">
+                            <p class="product-title">Whisps</p>
+                            <p class="product-dev">ECHO Caves Team</p> 
+                        </div>
+                        <div class="product-info-wrapper">
+                            <image src=media/info-icon.png class="product-info">
+                        </div> 
+                    </div>
                 </div>
-            </div>
-            
-            <div id="Card_Orion" class="product-card">
-                <div class="product-image">
-                    <img src=".media/Home_Volcano.png">
+                <div id="card-volcano" class="product-card">
+                    <div class="product-image">
+                        <img src="media/Home_Volcano.png">
+                    </div>
+                    <div class="product-description">
+                        <div class="product-details-wrapper">
+                            <p class="product-title">Volcano</p>
+                            <p class="product-dev">ECHO Caves Team</p> 
+                        </div>
+                        <div class="product-info-wrapper">
+                            <image src=media/info-icon.png class="product-info">
+                        </div> 
+                    </div>
                 </div>
-                <div class="product-info">
-                    <p class="productHeader">Orion</p><br>
-                    <span class="productDev">ECHO Caves Team</span><br>
-                    <button class="copyJSON">Copy JSON</button>
+                <div id="card-volcano" class="product-card">
+                    <div class="product-image">
+                        <img src="media/Home_Whisps.png">
+                    </div>
+                    <div class="product-description">
+                        <div class="product-details-wrapper">
+                            <p class="product-title">Volcano</p>
+                            <p class="product-dev">ECHO Caves Team</p> 
+                        </div>
+                        <div class="product-info-wrapper">
+                            <image src=media/info-icon.png class="product-info">
+                        </div> 
+                    </div>
                 </div>
-            </div>
-
-            <div id="Card_Vanta" class="product-card">
-                <div class="product-image">
-                  <img src=".media/Home_Volcano.png"">
+                <div id="card-volcano" class="product-card">
+                    <div class="product-image">
+                        <img src="media/Home_Volcano.png">
+                    </div>
+                    <div class="product-description">
+                        <div class="product-details-wrapper">
+                            <p class="product-title">Volcano</p>
+                            <p class="product-dev">ECHO Caves Team</p> 
+                        </div>
+                        <div class="product-info-wrapper">
+                            <image src=media/info-icon.png class="product-info">
+                        </div> 
+                    </div>
                 </div>
-                <div class="product-info">
-                    <p class="productHeader">Vanta</p><br>
-                    <span class="productDev">ECHO Caves Team</span><br>
-                  <button class="copyJSON">Copy JSON</button>
-                  <br>
+                <div id="card-volcano" class="product-card">
+                    <div class="product-image">
+                        <img src="media/Home_Whisps.png">
+                    </div>
+                    <div class="product-description">
+                        <div class="product-details-wrapper">
+                            <p class="product-title">Volcano</p>
+                            <p class="product-dev">ECHO Caves Team</p> 
+                        </div>
+                        <div class="product-info-wrapper">
+                            <image src=media/info-icon.png class="product-info">
+                        </div> 
+                    </div>
                 </div>
-            </div>
-
-            <div id="Card_Whisps" class="product-card">
-                <div class="product-image">
-                  <img src=".media/Home_Whisps.png"">
+                <div id="card-volcano" class="product-card">
+                    <div class="product-image">
+                        <img src="media/Home_Volcano.png">
+                    </div>
+                    <div class="product-description">
+                        <div class="product-details-wrapper">
+                            <p class="product-title">Volcano</p>
+                            <p class="product-dev">ECHO Caves Team</p> 
+                        </div>
+                        <div class="product-info-wrapper">
+                            <image src=media/info-icon.png class="product-info">
+                        </div> 
+                    </div>
                 </div>
-                <div class="product-info">
-                    <p class="productHeader">Whisps</p><br>
-                    <span class="productDev">ECHO Caves Team</span><br>
-                  <button class="copyJSON">Copy JSON</button>
-                  <br>
-                </div>
-            </div>
-
-            <div id="Card_MelonWater" class="product-card">
-                <div class="product-image">
-                  <img src=".media/Home_Volcano.png"">
-                </div>
-                <div class="product-info">
-                    <p class="productHeader">MelonWater</p><br>
-                    <span class="productDev">ECHO Caves Team</span><br>
-                  <button class="copyJSON">Copy JSON</button>
-                  <br>
-                </div>
-            </div>
-
-            <div id="Card_HeavyGreen" class="product-card">
-                <div class="product-image">
-                  <img src=".media/Home_Volcano.png"">
-                </div>
-                <div class="product-info">
-                    <p class="productHeader">Heavy Green</p><br>
-                    <span class="productDev">ECHO Caves Team</span><br>
-                  <button class="copyJSON">Copy JSON</button>
-                  <br>
-                </div>
-            </div>
-
-            <div id="Card_HeavyBlue" class="product-card">
-                <div class="product-image">
-                  <img src=".media/Home_Volcano.png"">
-                </div>
-                <div class="product-info">
-                    <p class="productHeader">Heavy Blue</p><br>
-                    <span class="productDev">ECHO Caves Team</span><br>
-                  <button class="copyJSON">Copy JSON</button>
-                  <br>
-                </div>
-            </div>
-
-            <div name="VANTA" class="product-card">
-                <div class="product-image">
-                  <img src=".media/Home_Volcano.png"">
-                </div>
-                <div class="product-info">
-                    <p class="productHeader">Placeholder Theme</p><br>
-                    <span class="productDev">ECHO Caves Team</span><br>
-                  <button class="copyJSON">Copy JSON</button>
-                  <br>
-                </div>
-            </div>
-
-            <div name="VANTA" class="product-card">
-                <div class="product-image">
-                  <img src=".media/Home_Volcano.png"">
-                </div>
-                <div class="product-info">
-                    <p class="productHeader">Placeholder Theme</p><br>
-                    <span class="productDev">ECHO Caves Team</span><br>
-                  <button class="copyJSON">Copy JSON</button>
-                  <br>
-                </div>
-            </div>
-
-            <div name="VANTA" class="product-card">
-                <div class="product-image">
-                  <img src=".media/Home_Volcano.png"">
-                </div>
-                <div class="product-info">
-                    <p class="productHeader">Placeholder Theme</p><br>
-                    <span class="productDev">ECHO Caves Team</span><br>
-                  <button class="copyJSON">Copy JSON</button>
-                  <br>
+                <div id="card-volcano" class="product-card">
+                    <div class="product-image">
+                        <img src="media/Home_Volcano.png">
+                    </div>
+                    <div class="product-description">
+                        <div class="product-details-wrapper">
+                            <p class="product-title">Volcano</p>
+                            <p class="product-dev">ECHO Caves Team</p> 
+                        </div>
+                        <div class="product-info-wrapper">
+                            <image src=media/info-icon.png class="product-info">
+                        </div> 
+                    </div>
                 </div>
             </div>
-
-            <div name="VANTA" class="product-card">
-                <div class="product-image">
-                  <img src=".media/Home_Volcano.png"">
-                </div>
-                <div class="product-info">
-                    <p class="productHeader">Placeholder Theme</p><br>
-                    <span class="productDev">ECHO Caves Team</span><br>
-                  <button class="copyJSON">Copy JSON</button>
-                  <br>
-                </div>
-            </div>
-
-          </section>
         </div>
         <script type="text/javascript" src="ecCatalog.js"></script>
     </body>

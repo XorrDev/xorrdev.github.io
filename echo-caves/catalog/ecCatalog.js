@@ -52,10 +52,6 @@ function Changelog() {
 function About() {
   window.location.href = 'https://reactivepeakstudios.github.io/echo-caves/about';
 }
-
-var prevTag = "tagALL";
-document.getElementById("tagALL").style = "background-color: #00ACFF;";
-
 function searchALL() {
   document.getElementById(prevTag).style = "background-color: #484848;";
   document.getElementById("tagALL").style = "background-color: #00ACFF;";
