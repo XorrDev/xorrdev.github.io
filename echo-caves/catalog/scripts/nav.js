@@ -5,13 +5,15 @@ document.getElementsByClassName("search-buttons")[3].addEventListener("click", f
 document.getElementsByClassName("search-buttons")[4].addEventListener("click", function() { applyFilter(4);});
 document.getElementsByClassName("search-buttons")[5].addEventListener("click", function() { applyFilter(5);});
 
+document.getElementsByClassName("search-buttons")[0].style = "background-color: #5e366d; border-color: #b697c9;";
+
 let previousIndex = 0;
 let catalog = document.getElementById("products");
 let product = catalog.getElementsByClassName("product-card");
 
 function applyFilter(index) {
 
-    document.getElementsByClassName("search-buttons")[previousIndex].style = "background-color: #282828; border-color:#00ACFF;";
+    document.getElementsByClassName("search-buttons")[previousIndex].style = "";
     document.getElementsByClassName("search-buttons")[index].style = "background-color: #5e366d; border-color: #b697c9;";
 
     previousIndex = index;
