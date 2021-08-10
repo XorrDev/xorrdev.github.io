@@ -44,7 +44,7 @@ function Themepunk() {
   window.location.href = 'https://reactivepeakstudios.github.io/echo-caves/themepunk';
 }
 function Catalog() {
-  window.location.href = 'https://reactivepeakstudios.github.io/echo-caves/catalog';
+  window.location.href = './quarry/index.html';
 }
 function Changelog() {
   window.location.href = 'https://reactivepeakstudios.github.io/echo-caves/changelog';
