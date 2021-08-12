@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" data-inject-url="images/info-icon.png" class="product-moreInfo">>
   <clipPath id="p.0">
     <path d="m0 0l256.0 0l0 256.0l-256.0 0l0 -256.0z" clip-rule="nonzero"/>
   </clipPath>
