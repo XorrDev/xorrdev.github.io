@@ -1,5 +1,5 @@
 function addHeroZitus() {
-    window.location.href = 'https://discord.com/api/oauth2/authorize?client_id=733952380772679763&permissions=0&scope=bot';
+    window.location.href = 'https://discord.com/api/oauth2/authorize?client_id=883085357179105382&permissions=0&scope=bot';
 }
 let jsonData;
 let objData;
