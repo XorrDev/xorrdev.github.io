@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@400;500&display=swap');
+
+html {
+    font-family: 'Changa', sans-serif;
+    background-color: #0e0f19;
+}
+
+#head-wrapper {
+    h2 {
+       font-size:56px;
+       margin:0;
+    }
+    p {
+        margin:0;
+        color:#b5d6f5;
+        font-size: 18px;
+    }
+    padding-top:0em;
+    padding-bottom:0em;
+    margin-left:5em;
+    div {
+        padding:2em;
+    }
+}
+
+a {
+    color:#FFF;
+    text-decoration: none;
+}
+
+#head-container {
+    background-color: #23243D;
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+}
+
+#nav-container {
+    background-color: #32345a;
+    height:4.4em;
+    vertical-align: middle;
+    justify-content: center;
+}
+#nav-wrapper {
+    padding-left:2em;
+    height:100%;
+    display: flex;
+    align-items: center;
+    float:left;
+}
+#socials-wrapper {
+    float: right;
+    margin-right:5em;
+    height:100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-button, .nav-icon {
+    font-family: 'Changa', sans-serif;
+    background-color: #474b9b;
+    color:#FFF;
+    span {
+        color:#F08651;
+        -webkit-transition: all 0.5s 0s ease;
+        -moz-transition: all 0.5s 0s ease;
+        -o-transition: all 0.5s 0s ease;
+        transition: all 0.5s 0s ease;
+    }
+    outline: none;
+    border:none;
+    font-size:20px;
+    height:100%;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+    border:#F08651 2px solid;
+    padding:0;
+    margin:0em 0.2em 0em 0.2em;
+    fill:#000;
+    &:hover {
+        background-color:#F08651;
+        color:#000;
+        span {
+            color:#FFF;
+        }
+        cursor:pointer;
+        transform: (56px);
+    }
+}
+
+.dropdown-projects {
+    display: none;
+    position: absolute;
+    background-color: #474B9B;
+    border:#F08651 2px solid;
+    width:124px;
+    z-index: 1;
+    left:12em;
+    top:2.9em;
+    padding:0;
+    margin:0;
+    border-radius: 0px 0px 10px 10px;
+    color:#FFF;
+    a {
+        
+        &:hover {
+            color:#F08651;
+        }
+    }
+  }
+
+
+#nav-projects:hover .dropdown-projects {
+    display: block;
+}
+
+.nav-button {
+    width:8rem;
+    height:48px;
+    background-color: #474b9b;
+    &:first-child {
+        border-radius: 10px 0px 0px 10px;
+      }
+    &:last-child {
+        border-radius: 0px 10px 10px 0px;
+    }     
+}
+.nav-icon {
+    width:80px;
+    height:48px;
+    vertical-align: middle;
+    img {
+        max-width: 40px;
+    }
+    &:first-child {
+        border-radius: 10px 0px 0px 10px;
+    }
+    &:last-child {
+        border-radius: 0px 10px 10px 0px;
+    }
+}
+
+#nav-projects {
+    background-color: #F08651;
+    color:#000;
+    font-weight: bold;
+    span {
+        color:#FFF;
+    }
+    .dropdown-projects a {
+        &:first-child {
+            color:#F08651;
+        }
+    }
+}
+
+#menu-container {
+    padding:4em;
+    text-align: center;
+    justify-content: center;
+}
+
+#menu-wrapper { 
+    text-align: center;
+    justify-content: center;
+    vertical-align: middle;
+    border-radius: 25px 25px 25px 25px;
+    padding:20em;
+
+    p {
+        color:#FFF;
+        font-size:40px;
+    }
+
+}
+
+#foot-wrapper {
+    h2 {
+       color:#FFF;
+       font-size:35px;
+       margin-bottom:0;
+    }
+    p {
+        margin-top:0;
+        color:#b5d6f5;
+        font-size: 18px;
+    }
+    #copyright {
+        color:#F08651;
+        margin-top:2em;
+        font-size: 15px;
+    }
+    padding-top:0.5em;
+    padding-bottom:0.5em;
+    margin-left:5em;
+    width:50%;
+
+}
+#social-foot-wrapper {
+    text-align:right;
+    margin:auto;
+    width:50%;
+    margin-right:5em;
+    vertical-align:middle;
+
+}
+
+#foot-container {
+    background-color: #23243D;
+    display: flex;
+    div {
+        align-items: bottom;
+    }
+    bottom:0;
+    left:0;
+    position:fixed;
+    width:100%;
+}
+@media (max-height: 620px) {
+    #foot-container {
+        display:none;
+    }
+}

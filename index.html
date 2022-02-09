@@ -1,59 +1,68 @@
-
-<!DOCTYPE html>
-<html lang="en" class=background>
-    <title>
-        Reactive Peak - Home
-    </title>
+<html>
     <head>
-        <link rel="icon" href="/images/RPSicon256.png">
-        <link rel="stylesheet" href="home.css">
-        <div id="floatMenu">
-            <button class="FMButton" id="FMHome" onclick="Home()">
-                Home
-            </button>
-            <button class="FMButton" id="FMDownloads" onclick="Downloads()">
-                Downloads
-            </button>
-            <button class="FMButton" id="FMProjects" onclick="Projects()">
-                Projects
-            </button>
-            <button class="FMButton" id="FMAbout" onclick="About()">
-                About
-            </button>
-            <button class="FMButton" id="FMContact" onclick="Contact()">
-                Contact
-            </button>
+        <title>Reactive Peak Studios</title>
+        <link rel="stylesheet" href="styles/home/home.css">
+        <link rel="icon" href="media/RPS.svg">
+    </head>
+    <body>
+        <div id="head-container">
+            <div id="head-wrapper" style="display:flex;">
+                <img src="media/RPS.svg" style="height:200; width:200; vertical-align:center;">  
+                <div style="margin-top:auto; margin-bottom: auto;">
+                    <h2 style="color:#F08651"><span style="color:#51A3F0">Reactive</span> Peak</h2>
+                    <p>Reactive Results. Peak Performance.</p>
+                </div>
+            </div>
+            <div id="nav-container">
+                    <div id="nav-wrapper">
+                        <button title="Home" class="nav-button" id="nav-home" ><img src="media/home.svg"></button>
+                        <button title="Visit a Projects Page" class="nav-button" id="nav-projects">Projects
+                            <div class="dropdown-projects">
+                                <a title="Visit the Project Blog" href="blog/index.html">Project Blog</a>
+                                <a title="Visit the ECHO Caves Project">ECHO Caves</a>
+                            </div>
+                        </button>
+                        <button title="Visit the About Page" class="nav-button" id="nav-about">About</button>
+                        <button title="Visit the Contact Page" class="nav-button" id="nav-contact">Contact</button>
+                    </div>
+                <div class="socials-wrapper">
+                    <button class="nav-icon" onclick="window.open('https://twitter.com/ReactivePeak');"><img src="media/twitter-logo.svg"></button>
+                    <button class="nav-icon" onclick="window.open('https://instagram.com');"><img src="media/instagram-logo.svg"></button>
+                    <button class="nav-icon" onclick="window.open('https://facebook.com');"><img src="/media/github-logo.png" ></button>
+                </div>
+            </div>
         </div>
-        <div id="staticMenu">
-            <button class="SMButton" id="SMHome" onclick="Home()">
-                Home
-            </button>
-            <button class="SMButton" id="SMDownloads" onclick="Downloads()">
-                Downloads
-            </button>
-            <button class="SMButton" id="SMProjects" onclick="Projects()">
-                Projects
-            </button>
-            <button class="SMButton" id="SMAbout" onclick="About()">
-                About
-            </button>
-            <button class="SMButton" id="SMContact" onclick="Contact()">
-                Contact
-            </button>
-          </div>
-        <h1 id="title">
-            Reactive Peak Studios
-        </h1> 
-        <p id="descF">
-        </p>
-        <div style="text-align: center">
-            <h style="font-size: 40px; color: rgb(218, 0, 0); letter-spacing: 1px;">
-                This page is still under heavy maintenence. Visit back soon.
-            </h>
-        </div>
-    </head> 
-    <body onscroll="Scrolled()" id="body" onresize="logoVisibility()">
+        <div style="position:fixed"> <!--   content   -->
+            
 
-        <script type="text/javascript" src="home.js"></script>
+            
+
+
+        </div><!-- content-end -->
     </body>
-</html>
+    <div id="foot-container">
+        <div id="foot-wrapper">
+            <div style="width:100%">
+                <h2 style="color:#F08651"><span style="color:#51A3F0">Reactive</span> Peak</h2>
+                <p>Reactive Results. Peak Performance.</p>
+            </div>
+            <table style="width:100%; margin-right:5em;">
+                <thead><tr><th>Projects</th><th>Company</th><th></th></tr></thead>
+                <tbody><tr><td>Echo Caves</td><td>About</td><td>Terms</td></tr>
+                <tr><td>Herozitus</td><td>Contact</td><td>Privacy</td></tr>
+                <tr><td></td><td>Blog</td></tr><tr></tr></tbody>
+            </table>
+            
+        </div>
+        <div style="background-color:#32345A;">
+            <div id="social-foot-wrapper">
+                <p id="copyright">Copyright &copy Reactive Peak Studios.</p>
+                <div class="socials-wrapper">
+                    <button class="nav-icon" onclick="window.open('https://www.twitter.com/');"><img src="media/twitter-logo.svg"></button>
+                    <button class="nav-icon" onclick="window.open('https://instagram.com');"><img src="media/instagram-logo.svg"></button>
+                    <button class="nav-icon" onclick="window.open('https://facebook.com');"><img src="/media/github-logo.png"></button>    
+                </div>
+            </div>    
+        </div>
+    </div>
+</html> 
