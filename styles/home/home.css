@@ -58,7 +58,7 @@ a {
 
 .nav-button, .nav-icon {
   font-family: "Changa", sans-serif;
-  background-color: #474b9b;
+  background-color: #4e518c;
   color: #FFF;
   outline: none;
   border: none;
@@ -68,7 +68,6 @@ a {
   -moz-transition: all 0.5s 0s ease;
   -o-transition: all 0.5s 0s ease;
   transition: all 0.5s 0s ease;
-  border: #F08651 2px solid;
   padding: 0;
   margin: 0em 0.2em 0em 0.2em;
   fill: #000;
@@ -102,7 +101,7 @@ a {
 .dropdown-projects {
   display: none;
   position: absolute;
-  background-color: #474B9B;
+  background-color: #4e518c;
   border: #F08651 2px solid;
   width: 124px;
   z-index: 1;
@@ -121,7 +120,7 @@ a {
 .nav-button {
   width: 8rem;
   height: 48px;
-  background-color: #474b9b;
+  background-color: #4e518c;
 }
 
 .nav-icon {
@@ -188,6 +187,15 @@ a {
 #social-foot-wrapper #copyright {
   color: #F08651;
   font-size: 15px;
+}
+
+.foot-icon {
+  background-color: transparent;
+  width: 40px;
+  height: 40px;
+}
+.foot-icon img {
+  width: 30px;
 }
 
 #foot-container {
