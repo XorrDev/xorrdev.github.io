@@ -1,71 +1,102 @@
-<html>
-    <head>
-        <title>Reactive Peak Studios</title>
-        <!-- page styles-->
-        <link rel="stylesheet" href="styles/home/home.css">
-        <link rel="stylesheet" href="styles/global/footer.css">
-        <!-- page styles-->
-        <link rel="icon" href="media/RPS.svg">
-    </head>
-    <body>
-        <div id="head-container">
-            <div id="head-wrapper" style="display:flex;">
-                <img src="media/RPS.svg" style="height:200; width:200; vertical-align:center;">  
-                <div style="margin-top:auto; margin-bottom: auto;">
-                    <h2 style="color:#F08651"><span style="color:#51A3F0">Reactive</span> Peak</h2>
-                    <p>Reactive Results. Peak Performance.</p>
-                </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethan Quaresma - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header>
+        <div class="logo" id="logo-container">
+            <img src="xorr.png" alt="Ethan Quaresma Logo">
+        </div>
+        <nav>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
-            <div id="nav-container">
-                    <div id="nav-wrapper">
-                        <button title="Home" class="nav-button" id="nav-home" ><img src="media/home.svg"></button>
-                        <button title="Visit a Projects Page" class="nav-button" id="nav-projects">Projects
-                            <div class="dropdown-projects">
-                                <a title="Visit the Project Blog" href="blog/">Project Blog</a>
-                                <a title="Visit the ECHO Caves Project">ECHO Caves</a>
-                            </div>
-                        </button>
-                        <button title="Visit the About Page" class="nav-button" id="nav-about">About</button>
-                        <button title="Visit the Contact Page" class="nav-button" id="nav-contact">Contact</button>
-                    </div>
-                <div class="socials-wrapper">
-                    <button class="nav-icon" onclick="window.open('https://twitter.com/ReactivePeak');"><img src="media/twitter-logo.svg"></button>
-                    <button class="nav-icon" onclick="window.open('https://instagram.com');"><img src="media/instagram-logo.svg"></button>
-                    <button class="nav-icon" onclick="window.open('https://facebook.com');"><img src="/media/github-logo.png" ></button>
-                </div>
+            <ul id="nav-menu">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-bg"></div>
+        <h1 id="name-display">Ethan Quaresma</h1>
+        <p>Cybersecurity & Software Engineer</p>
+        <a href="#projects" id="view-projects" class="cta-btn">View My Work</a>
+    </section>
+
+    <section id="about">
+        <div class="about-content">
+            <div class="bio">
+                <h2>Who Am I?</h2>
+                <p>Hi! I am Ethan Quaresma, a hardworking, passionate individual who strives to expand my knowledge and opportunities everyday. Other things I love doing, outside of computer related things, are <span class="accent">music production</span>, <span class="accent">playing games</span>, and <span class="accent">spending time with my family</span>.</p>
+            </div>
+            <img src="profile.jpg" alt="Ethan Quaresma">
+            <div class="bio">
+                <h2>What Do I Do?</h2>
+                <p>I am a Cybersecurity Manager and Software Engineer passionate about securing systems and developing software solutions. With experience in various programming languages and a strong background in cybersecurity, I am dedicated to innovation and excellence in the digital world. I am also the Co-Founder and COO of SecondByte LLC, a computer assembly business and marketplace for PC buyers and sellers. you can check it out at <a style="color: #70C7D9" href="https://secondbyte.co/">secondbyte.co</a></p>
             </div>
         </div>
-        <div style="position:fixed"> <!--   content   -->
-            
+    </section>
 
-            
+    <section id="projects">
+        <h2>Projects</h2>
+        <div id="project-grid"></div>
+        <button id="show-more-btn">Show More</button>
+        
+    </section>
+    
+    
 
-
-        </div><!-- content-end -->
-    </body>
-    <div id="foot-container">
-        <div id="foot-wrapper">
-            <div style="width:100%">
-                <h2 style="color:#F08651"><span style="color:#51A3F0">Reactive</span> Peak</h2>
-                <p>Reactive Results. Peak Performance.</p>
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>Languages</h3>
+                <ul>
+                    <li>C#</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                </ul>
             </div>
-            <table style="width:100%; margin-right:5em;">
-                <thead><tr><th>Projects</th><th>Company</th></tr></thead>
-                <tbody><tr><td>Echo Caves</td><td>About</td></tr>
-                <tr><td>Herozitus</td><td>Contact</td></tr>
-                <tr><td></td><td>Blog</td></tr></tbody>
-            </table>
-            
+            <div class="skill-category">
+                <h3>Tools & Frameworks</h3>
+                <ul>
+                    <li>Node.js</li>
+                    <li>Svelte.js</li>
+                    <li>Git/GitHub</li>
+                    <li>Digital Ocean</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Certifications</h3>
+                <ul>
+                    <li><img src="security-plus.png" style="width: 150px;"></li>
+                </ul>
+            </div>
         </div>
-        <div style="background-color:#32345A;">
-            <div id="social-foot-wrapper">
-                <p id="copyright">Copyright &copy Reactive Peak Studios.</p>
-                <div class="socials-wrapper">
-                    <button class="nav-icon foot-icon" onclick="window.open('https://www.twitter.com/');"><img src="media/twitter-logo.svg"></button>
-                    <button class="nav-icon foot-icon" onclick="window.open('https://instagram.com');"><img src="media/instagram-logo.svg"></button>
-                    <button class="nav-icon foot-icon" onclick="window.open('https://facebook.com');"><img src="/media/github-logo.png"></button>    
-                </div>
-            </div>    
+    </section>
+    <section id="accomplishments">
+        <h2>Badges Earned</h2>
+        <div style="text-align: center;">
+            <img src="https://holopin.me/reactjs" alt="Holopin ReactJS Certificate">
         </div>
-    </div>
-</html> 
+    </section>
+    
+    <footer>
+        <p>© 2024 Ethan Quaresma. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
